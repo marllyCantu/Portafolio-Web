@@ -1,0 +1,113 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font-family:'Cinzel', serif;
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+
+h2{
+	font-family:'Cinzel', serif;
+	font-size: 25px;
+	margin-top: 15px;
+}
+
+p{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+}
+
+ul li{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	margin-left: 28px;
+	margin-top: 5px;
+}
+
+dl{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
+
+ol{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
+
+ol li{
+	margin-left: 20px;
+}
+
+ol ul{
+	padding-left: 30px;
+}
+
+ol dt{
+	margin: 5px;
+}
+
+dt{
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+dd{
+	margin-left: 20px;
+}
+
+header .img{
+	display: flex;
+	margin: 20px;
+	padding: 10px;
+	width: 20%;
+	border-radius: 6%;
+}
+
+header{
+	background-color: #FCAB10;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.contenido{
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: #FED9B7;
+	padding: 20px;
+	display: flex;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+.derecha{
+	padding: 20px;
+	width: 70%;
+}
+
+.izquierda{
+	padding: 20px;
+	width: 30%;
+	background-color: #DA4167;
+	/*background-color: #C97B84;*/
+	border-radius: 10px;
+}
+
+footer{
+	background-color: #2B9EB3;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	color: #FFF;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+footer .icono{
+	padding-right: 10px;
+}
+
