@@ -1,0 +1,105 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+label{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+}
+
+header{
+	font-family:'Cinzel', serif;
+	font-size: 20px;
+	margin-top: 15px;
+	max-width: 1000px;
+	margin: 0 auto;
+	border-radius: 7px;
+	background-color: #3AB795;
+}
+
+h1{
+	font-family:'Cinzel', serif;
+	font-size: 30px;
+	margin-top: 15px;
+	max-width: 1000px;
+	margin: 0 auto;
+	border-radius: 7px;
+}
+
+form{
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+.boton{
+	background-color: #6DD0A2;
+	border-radius: 5px;
+	padding: 10px;
+	font-family:'Cinzel', serif;
+	font-weight: bold; 
+	border-color: #0CF574;
+	text-align: center;
+}
+
+.carro{
+	padding: 10px;
+	margin: 20px;
+}
+
+.etiqueta{
+	margin-top: 10px;
+}
+
+.disp{
+	margin-left: 10px;
+	padding: 10px;
+}
+
+.ingles{
+	padding: 20px;
+	margin-left: 24px;
+}
+
+.op{
+	padding: 20px;
+	margin-left: 30px;
+}
+
+.op2{
+	padding: 20px;
+	margin-left: 50px;
+}
+
+.op3{
+	padding: 20px;
+	margin-left: 30px;
+}
+
+#sola{
+	margin-right: 10px;
+}
+
+a{
+	text-decoration: none;
+	font-family:'Cinzel', serif;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+
+footer{
+	background-color: #A0E8AF;
+	text-align: center;
+	margin-top: 15px;
+	max-width: 1000px;
+	margin: 0 auto;
+	border-radius: 7px;	
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	font-weight: bold; 
+}

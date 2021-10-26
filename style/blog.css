@@ -1,0 +1,253 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana;
+}
+
+p{
+	padding: 10px;
+	text-align: justify;
+}
+
+body{
+	width: 1000px;
+	background-color: #EFBDEB;
+	margin: 0 auto;
+}
+
+header, div{
+	padding-top: 5px;
+}
+
+.contenedor{
+	background-color: white;
+	padding: 20px 40px;
+}
+
+h1{
+	font-size: 20px;
+	padding: 4px;
+}
+
+h2{
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+a{
+	font-size: 18px;
+}
+
+.marlly{
+	display: flex;
+	background-color: #B68CB8;
+	border-radius: 10px;
+}
+
+.header-texto{
+	width: 75%;
+	padding-left: 10px;
+}
+
+.header-imagen{
+	width: 25%;
+	padding-left: 30px;
+}
+
+aside img{
+	width: 70%;
+	border-radius: 10px;
+	padding: 3px;
+}
+
+nav{
+	background-color: #0A81D1;
+	width: 99%;
+	padding: 6px;
+	border-radius: 10px;
+
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+}
+
+nav ul li{
+	text-decoration: none;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #314CB6;
+}
+
+.listas{
+	padding-left: 30px;
+}
+
+#arquitectura{
+	background-color: #314CB6;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding-top: 7px;
+}
+
+#front-end{
+	background-color: #6461A0;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-bottom: 7px;
+}
+
+#back-end{
+	background-color: #B68CB8;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-bottom: 7px;
+}
+
+#desarrollo{
+	background-color: #B68CB8;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-bottom: 7px;
+}
+
+footer img{
+	padding: 6px;
+	width: 6%;
+}
+
+.con-imagen{
+	display: flex;
+}
+
+.texto-imagen{
+	width: 60%;
+}
+
+.imagen{
+	width: 40%;
+	padding: 10px;	
+}
+
+/*TABLET*/
+@media(max-width: 1000px){
+	h1{
+		font-size: 15px;
+		padding: 4px;
+	}
+
+	h2{
+		font-size: 13px;
+		padding-left: 10px;
+	}
+
+	a{
+		font-size: 13px;
+	}
+
+	body, header, .contenido-principal, footer{
+		width: auto;
+	}
+
+	.autor{
+		display: block;
+	}
+
+	main, aside{
+		width: auto;
+		margin-right: 0px;
+	}
+
+	nav{
+		width: auto;
+	}
+}
+
+
+/*TELÉFONOS*/
+@media(max-width: 800px){
+	h1{
+		font-size: 15px;
+		padding: 4px;
+	}
+
+	h2{
+		font-size: 13px;
+		padding-left: 10px;
+	}
+
+	a{
+		font-size: 12px;
+	}
+
+	nav ul li a{
+		font-size: 11px;
+	}
+
+	body, header, .contenido-principal, footer{
+		width: auto;
+	}
+
+	.autor{
+		display: block;
+	}
+
+	main, aside{
+		width: auto;
+		margin-right: 0px;
+	}
+
+	nav{
+		width: auto;
+	}	
+
+	.marlly{
+		display: block;
+	}
+
+	.header-texto{
+		margin-right: 5px;
+		width: auto;
+	}
+
+	.header-imagen{
+		width: 90%;
+		padding-left: 70px;
+	}
+
+	.con-imagen{
+		display: block;
+	}
+
+	.texto-imagen{
+		width: auto;
+	}
+
+	.imagen{
+		width: 50%;
+		padding-left: 100px;
+	}
+
+	p{
+		font-size: 14px;
+	}
+}

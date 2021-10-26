@@ -1,0 +1,58 @@
+.Lenguajes{
+	background-color: rgb(241, 148, 136);
+	font-family: Helvetica;
+	font-size: 15 px;
+}
+
+.ingles{
+	background-color: rgb(245, 67, 121);
+	font-family: Helvetica;
+	font-size: 15 px;
+}
+
+.pweb{
+	background-color: rgb(130, 196, 232);
+	font-family: Helvetica;
+	font-size: 15 px;
+}
+
+.equipos{
+	background-color: rgb(236, 246, 75);
+	font-family: Helvetica;
+	font-size: 15 px;
+}
+
+.proyectos{
+	background-color: rgb(173, 229, 12);
+	font-family: Helvetica;
+	font-size: 15 px;
+}
+
+.requisitos{
+	background-color: rgb(196, 124, 243);
+	font-family: Helvetica;
+	font-size: 15 px;
+}
+
+#estancia{
+	background-color: rgb(223, 55, 63);
+	font-family: Helvetica;
+	font-size: 15 px;
+	color: white;
+}
+
+.general{
+	background-color: rgb(218, 204, 205);
+}
+
+.titulo{
+	background-color: rgb(238, 230, 162 );
+}
+
+table{
+	font-family: Helvetica;
+}
+
+p{
+	font-family: Helvetica;
+}

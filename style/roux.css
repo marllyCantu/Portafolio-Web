@@ -1,0 +1,412 @@
+*{
+	margin: 0px;
+	padding: 0px;	
+	text-align: justify;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background-image: url("../img/background_buildings.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;	
+}
+
+.contenido{
+	max-width: 1000px;
+	margin: 0 auto;
+	background: white;
+}
+
+.primera-parte{
+	display: flex;
+}
+
+.segunda-parte{
+	display: flex;
+}
+
+header{
+	background-color: black;
+	color: white;
+	display: flex;
+	font-family:'Roboto', sans-serif;
+
+}
+
+header img{
+	padding: 30px;
+}
+
+header .titulo{
+	padding: 10px;
+	font-family:'Roboto', sans-serif;
+	width: 20%;
+}
+
+header .textoHeader{
+	padding: 10px;
+	margin: 30px;
+	font-family:'Roboto', sans-serif;
+	width: 50%;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	display: flex;
+	font-family:'Roboto', sans-serif;
+}
+
+footer img{
+	padding: 30px;
+}
+
+.textoFooter{
+	padding: 6px;
+	font-family:'Roboto', sans-serif;
+	width: 70%;
+}
+
+.poquito-footer{
+	padding: 60px;
+	font-family:'Roboto', sans-serif;
+	width: 30%;
+}
+
+.menu{
+	/*background-color: rgb(243, 138, 32);*/
+	background:linear-gradient(30deg, orangered, darkorange, gold, khaki);
+	font-family:'Roboto', sans-serif;
+	justify-content: left;
+	display: flex;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: black;
+
+}
+
+.menu li{
+	list-style: none;
+	position: relative;
+	float: left;	
+	padding: 10px;
+	padding-right: 40px;
+	padding-left: 30px;
+}
+
+nav ul li a:hover{
+	color: #FFF;
+}
+
+/*nav ul li{
+	list-style: none;	
+	color: black;
+}
+
+nav ul li a{
+	float: left;
+	margin-left: 20px;
+	padding: 10px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+
+}*/
+
+.izquierda{
+	background-color: white;
+	width: 70%;
+	margin:5px;
+	padding: 20px;
+}
+
+.derecha{
+	width: 30%;
+	margin:5px;
+	padding: 20px;
+}
+
+.derecha img{
+	width: 100%;
+}
+
+.dentro-venue{
+	display: flex;
+}
+
+.dentro-venue img{
+	padding: 5px;
+}
+
+.texto-dentro-venue{
+	padding: 8px;
+}
+
+.venue{
+	width: 70%;
+	margin:5px;
+	padding: 20px;
+}
+
+.horario{
+	width: 30%;
+	margin:5px;
+	padding: 20px;
+}
+
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
+	color: black;
+	padding-bottom: 10px;
+}
+
+.headerT{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+}
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: black;
+	padding: 10px;
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: black;
+	padding: 10px;
+	padding-bottom: 6px;
+}
+
+.rojo{
+	color: red;
+}
+
+table{
+	padding: 10px;
+}
+
+table img{
+	border-radius: 14px;
+	padding: 5px;
+	width: 80%;
+}
+
+
+/* SEGUNDA PÁGINA --- ARTISTS*/
+.uno{
+	display: flex;
+}
+
+.uno-b img{
+	padding: 15px;
+	border-radius: 30px;
+}
+
+.contenido-principal-artistas{
+	display: flex;
+}
+
+
+/* ÚLTIMA PÁGINA --- REGISTER*/
+label{
+	font-family: 'Roboto', sans-serif;
+}
+
+.formulario{
+	padding: 10px;
+}
+
+.datos-personales{
+	display: flex;
+}
+
+#etiquetas{
+	padding: 10px;
+}
+
+#campos-llenar{
+	padding: 10px;
+}
+
+.comentarios{
+	display: flex;
+}
+
+.cuadro-texto{
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+.boton{
+	background-color: #6DD0A2;
+	border-radius: 5px;
+	padding: 10px;
+	font-family:'Roboto', sans-serif;
+	font-weight: bold; 
+	border-color: #0CF574;
+	text-align: center;
+}
+
+/*IPAD PRO JALA AL 100%*/
+@media (max-width: 1000px){
+	h1{
+		font-size: 20px;
+	}
+
+	h2{
+		font-size: 18px;
+	}
+
+	h3{
+		font-size: 14px;
+	}
+
+	body, header, footer, .contenido, .separador, .contenido-principal-artistas{
+		width: auto;
+	}
+
+	#izquierdaArtistas{
+		display: block;
+	}
+
+	header .textoHeader{
+		font-size: 15px;
+		padding: 0px;
+	}
+
+	footer{
+		font-size: 13px;
+	}
+
+	#imagen-mar{
+		width: 99.9%;
+		height: 90%;
+	}
+
+	.contenido-principal{
+		display: block;
+	}
+
+	.segunda-parte{
+		width: auto;
+		text-align: left;
+	}
+
+	.dentro-venue{
+		display: block;
+	}
+
+	.segunda-parte img{
+		width: 200px;
+	}
+}
+
+/*IPHONE X*/
+@media (max-width: 375px){
+	body, header, footer, .contenido{
+		width: auto;
+	}
+
+	header{
+		padding: 0px;
+	}
+
+	header img{
+		width: 85%;
+		padding-top: 60px;
+	}
+
+	header .titulo{
+		font-size: 13px;
+		padding-top: 30px;
+		padding-left: 20px;
+	}
+
+	header .textoHeader{
+		font-size: 11px;
+	}
+
+	.headerT{
+		font-size: 12px;
+	}
+
+	.venue{
+		padding: 5px;
+	}
+
+	.horario{
+		width: 98%;
+		padding: 0px;
+		padding-right: 10px;
+	}
+
+	footer img{
+		width: 85%;
+	}
+
+	.textoFooter{
+		padding: 0px;
+		margin: 0px;
+		padding-bottom: 10px;
+		padding-left: 30px;
+		font-size: 13px;
+	}
+
+	.poquito-footer{
+		margin: 0px;
+		padding: 0px;
+		padding-top: 30px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	/*ARTISTAS*/
+	
+
+	#izquierdaHorario{
+		display: block;
+	}
+
+	/*VENUE*/
+	#derechaVenue{
+		padding: 0px;
+		margin: 0px;
+		padding-right: 10px;
+	}
+
+	#izquierdaVenue{
+		padding: 10px;
+		margin: 0px;
+
+	}
+
+	/*REGISTER*/
+	#contenidoRegistro{
+		display: block;
+	}
+
+	#derechaRegistro{
+		display: flex;
+	}
+
+	.derechaRegistro-article{
+		width: 100%;
+	}
+
+	.derechaRegistro-article tr td img{
+		width: 50px;
+	}
+}

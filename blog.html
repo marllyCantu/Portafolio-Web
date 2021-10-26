@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Evaluación Práctica</title>
+	<!--Caracteres-->
+	<meta charset="utf-8">
+	<!--Diseño responsivo-->
+	<meta name="viewport" content="initial-scale=1, width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale.0">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="style/blog.css">
+</head>
+<body>
+	<div class="contenedor">
+
+		<header>
+
+			<div class="marlly" id="autor">
+				<section class="header-texto">
+					<h1>AUTOR</h1>
+					<p>Marlly Yuleth Cantú Charles, estudiante de Ingeniería en Tecnologías de la Información con matrícula 1930064 en la Univerdidad Politécnica de Victoria. <br>Nació el 8 de agosto del 2001 en Cd. Victoria Tamulipas. Estudió en el Jardín de Niños Xochtl Palomino Contreras, de ahí se inscribió en la Escuela Primaria Victoria. Su educación continuó en la Secundaria Técnica #1 Álvaro Obregón y de allí en el CBTis 236, para finalmente llegar a su educación universitaria en la Universidad Politécnica de Victoria. </p>	
+				</section>
+
+				<aside class="header-imagen">
+					<img src="img/yo.jpg">
+				</aside>
+			</div>
+	
+
+			<div class="menu">
+				<nav>		
+					<ul>
+						<li><a href="#autor">Autor</a></li>
+						<li><a href="#arquitectura">Arquitectura</a></li>
+						<li><a href="#front-end">Front-End</a></li>
+						<li><a href="#back-end">Back-End</a></li>
+						<li><a href="#desarrollo">Desarrollo</a></li>
+					</ul>
+				</nav>			
+			</div>
+			
+					
+		</header>
+
+		<article class="contenido-principal">
+			<section id="arquitectura">
+				<h1>Arquitectura cliente-servidor</h1>
+				<p>El cliente es el que pide información y el servidor es el que entrega dicha información, siempre y cuando el cliente tenga los permisos que valida el servidor. En esta arquitectura el cliente no sirve para nada si el servidor no está disponible, mientras que el servidor por sí solo no tendría motivo de ser, pues no habría nadie que lo utilice. En este sentido, las dos partes son mutuamente dependientes, pues una sin la otra no tendría motivo de ser.<br>
+				Cada solicitud de recursos que el cliente hace se le comoce como "petición". En los inicios del desarollo web, no existía una clara diferencia entre el programador front-end y el programador back-end, pero ahora podemos decir que existe algo que los divide, entonces ¿qué es el front-end y el back-end?</p>
+			</section>
+
+			<section  id="front-end">
+				<h1>Front-End</h1>
+				<p>Inicia con HTML5, CSS, AngularJS y JavaScript. Aquí ocurre la programación, consuimir las API, mostrar datos en pantalla, validar la infromación, aplicar la lógica, el diseño, la maquetación, interacciones, flujo de usuario y demás. Por tal motivo, encontramos varios roles dentro del front-end y no se recomienda que estos roles se realicen por una sola persona.</p>
+				<h2>Diseñador UI</h2>
+				<p>Diseña las pantallas, los flujos de usuario e interacciones en un programa de diseño, este no escribe código. Su principal base para sus diseños son los requeirmientos que le brindan para el proyecto y sus propios conocimientos.</p>
+				<h2>Maquetador</h2>
+				<p>Lleva el diseño a código HTML y CSS. No se preocupa de la lódica, solo de la presentación. Su trabajo simplemente es el diseño, diseño responsivo, verificar que todo se vea bien en los distintos navegadores y dispositivos.</p>
+				<h2>Programador front-end</h2>
+				<p>Agrega datos reales desde una API y lógica a la presentación creada por el maquetador. Debe de saber JavaScript. Agrega lógica y validaciones a la página, no se preocupa del diseño.</p>
+				<div class="con-imagen">
+					<div class="texto-imagen">
+						<p>Entre los lenguajes más utilizados para front-end encontramos:</p>
+						<ul class="listas">
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Php</li>
+							<li>DOM</li>
+							<li>JavaScript</li>
+						</ul>
+						<p>Entre los frameworks para el front-end encontramos:</p>
+						<ul class="listas">
+							<li>Spring</li>
+							<li>Angular</li>
+							<li>React</li>
+							<li>Java</li>
+						</ul>
+					</div>	
+					<img class="imagen" src="img/f.jpg">			
+				</div>
+				
+			</section>
+
+			<section id="back-end">
+				<h1>Back-End</h1>
+				<p>Es la parte o rama del desarrollo web encargada de que toda la lógica de una página funcione. Consiste en el conjunto de acciones que pasan dentro de una web, pero que no podemos ver. Encontramos diversos roles dentro del back-end:</p>
+				<h2>Backend developer</h2>
+				<p>Se encarga de la lógica del negocio (el código del lado del servidor) y crea las APIs para que el Front-end pueda consumirlas. Es el programador, se conecta a la bade de datos, extrae los datos y los expone con una API para que el front-end los consuma, también se encarga de la seguridad.</p>
+				<h2>Database administrator</h2>
+				<p>Diseña, implementa, mejora y mantiene el sistema de base de datos. Es un experto en SQL.</p>
+				<h2>Administrador del servidor</h2>
+				<p>Gestiona la instalación, soporte y mantiene el servidor en donde se aloja la web o la app. Debe conocer a fondo el SO en que trabaja el servidor, domina conceptos de networking y cloud computing.</p>
+				
+
+				<div class="con-imagen">
+					<div class="texto-imagen">
+						<p>Entre los lenguajes más utilizados encontramos:</p>
+						<ul class="listas">
+							<li>Go</li>
+							<li>Java</li>
+							<li>Php</li>
+							<li>Python</li>
+							<li>JavaScript</li>
+						</ul>
+						<p>Entre los frameworks para el Back-end encontramos:</p>
+						<ul class="listas">
+							<li>Laravel</li>
+							<li>Django</li>
+							<li>Ruby</li>
+							<li>ASP</li>
+						</ul>
+					</div>
+					<img class="imagen" src="img/b.png">
+				</div>
+
+								
+				<br><h2>Stack</h2>			
+				<p>Un web stack, también denominado web application stack o conjunto de soluciones, define a un paquete de software necesario para el desarrollo de páginas y aplicaciones web. La arquitectura de estos stacks para el desarrollo web se compone de un sistema operativo, un servidor web, una base de datos y un intérprete de lenguaje de programación. Este conjunto de elementos se encarga, con la ayuda del hardware del servidor correspondiente, de que la información necesaria sobre el proyecto web en cuestión llegue al cliente que la solicita, por defecto el navegador de Internet, el cual procesa los textos en HTML, CSS y JavaScript y pone la web a disposición del usuario.</p>
+				<p>Entre los ejemplos de stack más populares encontramos:</p>
+				<ul class="listas">
+					<li>LAMP: todos sus componentes son open source, utiliza Linux, su servidor web es Apache, como base de datos usa MYSQL y emplea PHP.</li>
+					<li>WISA: de Microsoft, emplea Windows, como servidor web tiene IIS, para base de datos usa SQL Server y como lenguaje usa ASP.NET</li>
+					<li>MEAN: como base de datos NoSQL es MongoDB, el framework para servidor web es Express.js, para el frontend usa el framework AngularJS y la plataforma Node.js</li>
+				</ul>
+			</section>
+
+			<section id="desarrollo">
+				<h1>Desarrollo</h1>				
+
+				<iframe src="https://drive.google.com/file/d/1QkqtLbyeorP2gqke2UnfewAKfhl0xDiU/view?usp=sharing" width="240" height="180" allow="autoplay"></iframe>
+				<iframe id="Example2"
+				    title="iframe Example 2"
+				    width="400" height="300"
+				    style="border:none"
+				    src="https://drive.google.com/file/d/1QkqtLbyeorP2gqke2UnfewAKfhl0xDiU/view?usp=sharing">
+				</iframe>
+
+				<!--<video src="https://drive.google.com/file/d/1dPihZw5uNqz4I803rGSG01RkCnR02MPo/view?usp=sharing" width="600" height="400" controls="true" autoplay="" loop=""></video>
+				<br><br>
+
+				<video src="https://drive.google.com/file/d/1QkqtLbyeorP2gqke2UnfewAKfhl0xDiU/view?usp=sharing" width="600" height="400" controls="true" autoplay="" loop=""></video>
+				<br><br>-->
+
+				<a target="_blank" href="https://www.dropbox.com/s/4do53mfitgr3o6g/Parte1.mp4?dl=0">Parte 1 - 56:35 minutos</a><br>	
+				<a target="_blank" href="https://drive.google.com/file/d/1QkqtLbyeorP2gqke2UnfewAKfhl0xDiU/view?usp=sharing">Parte 2 - 24:12 minutos</a>	
+							
+			</section>
+			
+		</article>
+
+		<footer>
+		<center>			
+			<a class="icono" target="_blank" href="https://www.facebook.com/marllyyuleth.cantucharles"><img src="img/iconoFace.jpg" width="4%"></a>
+			<a target="_blank" href="https://www.instagram.com/marlly_yuth/"><img src="img/iconoInsta.png" width="4%"></a>
+			</center>		
+		</footer>
+			
+	</div>
+
+	
+
+</body>
+</html>

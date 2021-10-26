@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+
+	<link rel="stylesheet" type="text/css" href="style/formulario.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cookie&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<br>
+	<header><br>
+		<center><h1>Encuesta para producto X</h1></center><br>
+	</header>
+
+	<form method="post" action="formulario4.html">
+		<div><br>
+			<label><b>¿Qué dispositivos tienes en tu hogar?</b></label><br>
+			<input type="checkbox" name="disp" class="disp" value="1"><label>Tablet</label><br>
+			<input type="checkbox" name="disp" class="disp" value="2"><label>Smartphone</label><br>
+			<input type="checkbox" name="disp" class="disp" value="3"><label>PC</label><base href=""><br>
+			<input type="checkbox" name="disp" class="disp" value="4"><label>Laptop</label><br>
+			<input type="checkbox" name="disp" class="disp" value="5"><label for="otro">Otro</label>
+			<input type="text" name="otro" class="otro">
+		</div><br><br>
+
+		<div>
+			<label for="carrera"><b>¿Cuál es tu carrera?</b></label>
+			<select name="carrera" id="carrera">
+				<option value="0">Seleccione</option>
+				<option value="1">ITI</option>
+				<option value="2">MECA</option>
+				<option value="3">BIS</option>
+				<option value="4">MANU</option>
+				<option value="5">LAYGE</option>
+				<option value="6">ISA</option>
+			</select>
+		</div><br><br>
+
+		<div>
+			<label for="comen"><b>Comentarios</b></label><br>
+			<textarea name="comen" id="comen" cols="30" rows="10" placeholder="Ingresa tus comentarios"></textarea>
+		</div><br><br>
+
+		<div>
+			<label for="ingles"><b>¿Cuál es tu nivel de inglés?</b></label>
+			<br><label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1 &nbsp; &nbsp;2 &nbsp; &nbsp;3 &nbsp; &nbsp; 4 &nbsp; &nbsp; 5 </label><br>
+			<label>Básico</label>
+			<input type="radio" class="ingles" value="1" name="op1">
+			<input type="radio" class="ingles" value="2" name="op1">
+			<input type="radio" class="ingles" value="3" name="op1">
+			<input type="radio" class="ingles" value="4" name="op1">
+			<input type="radio" class="ingles" value="5"><label>&ensp;Avanzado</label>
+		</div><br><br>
+
+		<div>
+			<label for="op"><b>Da tu opinión</b></label>
+			<br><label>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp;Malo &emsp; Regular &emsp; Bueno &emsp; Excelente </label><br>
+			<label>Servicio al cuarto &nbsp;</label>
+			<input type="radio" class="op" value="1"  name="op2">&emsp;&emsp;
+			<input type="radio" class="op" value="2"  name="op2">&emsp; &emsp;
+			<input type="radio" class="op" value="3"  name="op2">&emsp; &emsp; &nbsp; &nbsp; 
+			<input type="radio" class="op" value="4"  name="op2">
+
+			<br><label>Reservación</label> &emsp;&emsp;
+			<input type="radio" class="op2" value="1"   name="op3">&emsp;
+			<input type="radio" class="op2" value="2" name="op3">&emsp;
+			<input type="radio" class="op2" value="3" name="op3">&emsp;&emsp;
+			<input type="radio" class="op2" value="4" name="op3">
+
+			<br><label>Restaurante&nbsp;</label> &emsp; &emsp;&ensp;
+			<input type="radio" class="op3" value="1" name="op4"> &emsp; &emsp;
+			<input type="radio" class="op3" value="2" name="op4">&emsp; &emsp; 
+			<input type="radio" class="op3" value="3" name="op4">&emsp; &emsp; &ensp; 
+			<input type="radio" class="op3" value="4" name="op4">
+		</div><br><br>
+
+		<div>
+			<label for="dob"><b>Fecha de nacimiento:</b> </label>
+			<input type="date" name="dob" id="dob">
+		</div><br><br>
+
+		<div>
+			<input type="radio" name="opc1" id="sola" value="Opcion 1"><label>Opcion 1</label>
+		</div>
+
+		<center><div><br><br>
+			<button class="boton"><a href="index.html">atrás</a></button>
+			<input class="boton" type="submit" value="ENVIAR">
+		</div><br></center>
+		
+	</form>
+
+	<footer><br>
+		<label>Marlly Cantu</label><br>
+		<label>Todos los derechos reservados &copy; 2021</label><br>
+	</footer>
+	<br><br>
+
+</body>
+</html>

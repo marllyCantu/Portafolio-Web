@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="style/formulario.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cookie&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<br>
+	<header><br>
+		<center><h1>Encuesta para producto X</h1></center><br>
+	</header>
+
+	<form action="formulario3.html" method="post">
+		<div>
+			<label for="nombre"><b>Nombre:</b></label>
+			<input type="text" name="nombre" id="nombre" placeholder="Marlly Cantu" required ="" >
+		</div>
+
+		<div><br><br>
+			<label for="carro"><b>¿Qué carro prefieres?</b></label><br>
+			&emsp; &emsp;<input type="radio"  class="etiqueta" value="Mini car" required="" name="op"><label>Mini car</label>
+			&emsp; &emsp; &emsp;<input type="radio" class="etiqueta" value="Lamborgini" required="" name="op"><label>Lamborgini
+			</label>
+			&emsp; &emsp; &emsp;<input type="radio"  class="etiqueta" value="Tesla" required="" name="op"><label>Audi</label>
+			<br><img src="img/mini.jpg" width="10%" class="carro"> &nbsp; <img src="img/lamborgini.jpg" width="10%" class="carro"> &ensp; <img src="img/audi.jpg" width="10%" class="carro">
+		</div>
+
+		<div><br><br>
+			<input class="boton" type="submit" value="SIGUIENTE">
+		</div><br><br>
+	</form>
+
+	<footer><br>
+		<label>Marlly Cantu</label><br>
+		<label>Todos los derechos reservados &copy; 2021</label><br>
+	</footer>
+
+</body>
+</html>
