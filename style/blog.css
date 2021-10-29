@@ -148,6 +148,14 @@ footer img{
 	padding: 10px;	
 }
 
+.videos{
+	display: block;
+	margin-left: 160px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
 /*TABLET*/
 @media(max-width: 1000px){
 	h1{
@@ -180,7 +188,15 @@ footer img{
 	nav{
 		width: auto;
 	}
+
+	.videos{
+		margin-left: 100px;
+		width: 480px;
+		height: 320px;
+	}
 }
+
+
 
 
 /*TELÉFONOS*/
@@ -249,5 +265,11 @@ footer img{
 
 	p{
 		font-size: 14px;
+	}
+
+	.videos{
+		margin-left: 20px;
+		width: 250px;
+		height: 160px;
 	}
 }
