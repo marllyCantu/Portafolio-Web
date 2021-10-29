@@ -1,9 +1,15 @@
+.......................................................................
+				UNIDAD 1
+.......................................................................
 HORARIO
  - horario
+
 FORMULARIO
  - formulario1
  - formulario3
  - formulario4
+errores:
+https://stackoverflow.com/questions/67921950/why-does-it-show-error-405-not-allowed-using-github-pages
 
 ROUX ACADEMY
  - home
@@ -14,3 +20,29 @@ ROUX ACADEMY
 
 BLOG
  - blog
+errores:
+https://www.webempresa.mx/blog/como-insertar-video-google-drive-wordpress.html
+
+
+
+.......................................................................
+				UNIDAD 2
+.......................................................................
+CFE
+
+DESVIACIÓN ESTÁNDAR
+
+CALCULADORA BÁSICA
+
+IMC
+
+CALCULADORA ARITMÉTICA
+
+CARRUSEL
+
+
+
+
+.......................................................................
+				UNIDAD 3
+.......................................................................

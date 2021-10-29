@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Verdana';
+}
+
+h1{
+	text-align: center;
+	padding: 10px;
+	background-color: pink;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+h3{
+	padding-left: 20px;
+	padding-bottom: 6px;
+	padding-top: 5px;
+}
+
+body{
+	width: 800px;
+	border-radius: 15px;	
+	margin: 0 auto;
+	background-image:url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.contenido{
+	display: flex;
+	background-color: pink;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.izquierda{
+	width: 40%
+}
+
+.derecha{
+	width: 60%;
+}
+
+.datos{
+	display: block;
+	border-style: ridge;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	width: 400px;	
+}
+
+#peso{
+	margin-left: 30px;	
+	margin-bottom: 4px;
+}
+
+#estatura{
+	margin-bottom: 4px;
+}
+
+.resultados{
+	display: block;
+	border-style: ridge;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	width: 400px;
+
+}
+
+#imc{
+	background-color: yellow;
+	color: black;
+	border-style: none;
+	margin-left: 55px;
+	margin-bottom: 4px;
+}
+
+#resultado{
+	background-color: yellow;
+	color: black;	
+	border-style: none;
+	margin-left: 10px;
+}
+
+#limpiar, #calcular{
+	font-family: 'Verdana';
+	font-size: 16px;
+	padding: 3px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+img{
+	margin-left: 150px;
+}

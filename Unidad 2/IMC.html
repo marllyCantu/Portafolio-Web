@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio IMC</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/IMC.css">
+</head>
+<body>
+	<!--
+	<div>
+		<label>Nombre: </label>
+		<input type="text" name="" id="nombre">
+	</div>
+
+	<div>
+		<label>Escuela:</label>
+		<input type="text" name="" id="escuela">
+	</div>
+
+	<div>
+		<input type="button" onclick="saludame();" name="" value="saludo">
+	</div>
+
+	<h1 id="mensaje" >Aqui debe de saludar</h1>
+
+	<script type="text/javascript">
+		function saludame(){
+			let nombre=document.getElementById("nombre");
+			let escuela=document.getElementById("escuela");
+			let mensaje=document.getElementById("mensaje");
+
+			mensaje.innerText="Hola "+nombre.value + " ¿cómo te va en "+ escuela.value+"?";
+		}
+	</script>-->
+	<h1>CALCULADORA DE IMC</h1>
+	<div class="contenido">		
+		<div class="izquierda">
+			<div class="datos">			
+				<div>
+					<h3>Datos</h3>
+					<label>Peso: </label>
+					<input type="number" name="" id="peso">			
+				</div>
+				<div>
+					<label>Estatura: </label>
+					<input type="number" name="" id="estatura">
+				</div>
+				<div>
+					<input type="button" id="limpiar" value="Reiniciar" onclick="location.reload();">
+					<input type="button" id="calcular" value="Calcular" onclick="calcular();">
+				</div>			
+			</div>
+
+			<div class="resultados">
+				<div>
+					<h3>Resultados</h3>
+					<label>IMC: </label>
+					<input type="text" name="" id="imc">				
+				</div>
+				<div>
+					<label>Categoría:</label>
+					<input type="text" name="" id="resultado">
+				</div>
+			</div>
+		</div>
+		<aside class="derecha">
+			<img src="img/pesa.png" id="imagen">
+		</aside>
+		
+	</div>
+
+	<script type="text/javascript" src="js/IMC.js"></script>
+
+</body>
+</html>

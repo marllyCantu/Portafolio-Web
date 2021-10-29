@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+.foto1{
+    background: url("../img/montaña.jpg");
+}
+
+.foto2{
+    background: url("../img/montaña4.jpg");
+}
+
+.foto3{
+    background: url("../img/montaña3.jpg");
+}
+
+.foto4{
+    background: url("../img/montaña5.jpg");
+}
+
+.main{
+    width: 1280px;
+    height: 650px;
+    margin: 30px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+.banner{
+    width: 1280px;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-slide{
+    width: 1280px;
+    height: 650px;
+    position: absolute;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.slide-active{
+    display: block;
+}
+
+.puntitos{
+    position: absolute;
+    right: 20px;
+    bottom: 24px;
+    text-align: right;
+}
+
+.puntitos span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background-color: rgba(7,17,27,0.4);
+    margin-right: 8px;
+    line-height: 12px;
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.8) inset;
+    cursor: pointer;
+}
+
+.puntitos span.active{
+    box-shadow: 0 0 0 2px rgba(7,17,27,0.4) inset;
+    background: #fff;
+}
+
+.boton{
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    left: 0px;
+    top: 50%;
+    margin: 0px;
+    background: url("../img/proximo.png") no-repeat center;
+    background-color: #FFFF;
+    opacity: 0.6;  
+}
+
+.boton:hover{
+    background-color: #46ABF0;
+    opacity: 0.8;    
+}
+
+.atras{
+    transform: rotate(180deg)
+}
+
+.siguiente{
+    right:0;
+    left: auto;
+}
+
