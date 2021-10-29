@@ -29,6 +29,7 @@ https://www.webempresa.mx/blog/como-insertar-video-google-drive-wordpress.html
 				UNIDAD 2
 .......................................................................
 CFE
+ - JSEjercicio1
 
 DESVIACIÓN ESTÁNDAR
 
@@ -39,6 +40,10 @@ IMC
 CALCULADORA ARITMÉTICA
 
 CARRUSEL
+
+
+NOTA:
+FALTA AGREGAR DISEÑO RESPONSIVO A ESTE ROLLO
 
 
 

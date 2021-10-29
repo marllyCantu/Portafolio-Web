@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/calculadoraAritmetica.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap" rel="stylesheet">	
+
+	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Courgette&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div class="principal">
+		<h1>CALCULADORA</h1>
+		<div>
+		  <input type="radio" id="on" value="true" name="prendido">
+		  <label for="on">On</label>
+		  <input type="radio" id="off" value="false" checked="true" name="prendido">
+		  <label for="off">Off</label>
+		</div>
+		<form class="calculadora">
+			<table>
+				<tr style="text-align: center;">
+					<td colspan="4"><input type="text" id="resultado" value="0"></td>
+				</tr>
+
+				<tr style="text-align:center;">
+					<td><input type="button" value="7" onclick="agregarNumero(this.value);"></td>
+					<td><input type="button" value="8" onclick="agregarNumero(this.value);"></td>
+					<td><input type="button" value="9" onclick="agregarNumero(this.value);"></td>
+					<td><input type="button" value="+" onclick="agregarOp(this.value);"></td>
+				</tr>
+
+
+				<tr style="text-align:center;">
+					<td><input type="button" value="4" onclick="agregarNumero(this.value);"></td>
+					<td><input type="button" value="5" onclick="agregarNumero(this.value);"></td>
+					<td><input type="button" value="6" onclick="agregarNumero(this.value);"></td>
+					<td><input type="button" value="-" onclick="agregarOp(this.value);"></td>
+				</tr>
+
+
+				<tr style="text-align:center;">
+					<td><input type="button" value="1" onclick="agregarNumero(this.value);"></td>
+					<td><input type="button" value="2" onclick="agregarNumero(this.value);"></td>
+					<td><input type="button" value="3" onclick="agregarNumero(this.value);"></td>
+					<td><input type="button" value="*" onclick="agregarOp(this.value);"></td>
+				</tr>
+
+
+				<tr style="text-align:center;">
+					<td><input type="button" value="C" onclick="location.reload();"></td>
+					<td><input type="button" value="0" onclick="agregarNumero(this.value);"></td>
+					<td><input type="button" value="  =  " onclick="final();"></td>
+					<td><input type="button" value="/" onclick="agregarOp(this.value);"></td>
+				</tr>
+
+
+			</table>
+		</form>
+	</div>
+
+
+	<script type="text/javascript" src="js/calculadoraAritmetica.js"></script>
+
+</body>
+</html>
