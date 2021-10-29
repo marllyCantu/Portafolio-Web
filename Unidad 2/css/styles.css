@@ -116,3 +116,39 @@ input[type=number]:focus {
     margin-top: 25px;
 }
 
+
+
+/*IPAD PRO JALA AL 100%*/
+@media (max-width: 1000px){
+
+}
+
+/*IPHONE X*/
+@media (max-width: 376px){
+    .botones{
+        display: block;
+    }
+    button{
+        display: block;
+        margin-left: 68px;
+    }
+    .reiniciar{
+        display: block;
+        margin-left: 0px;
+    }
+
+    body{
+        width: 1000px;
+        margin: 0 auto;
+        background-image:url(../img/fondo2.jpg); 
+        background-repeat: repeat; 
+    }
+
+    input[type=number] {
+        border-top: 5px;
+        width: 10%;
+        border: none;
+        border-bottom: 2px solid lightgray;
+    }
+
+}
