@@ -11,14 +11,14 @@
 <head>
 <meta charset="utf-8">
 
-<link rel="stylesheet" href="/roux_academy/roux_academy/css/style.css">
-<link rel="stylesheet" type="text/css" href="/roux_academy/roux_academy/css/estiloAsistente.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/estiloAsistente.css">
 <title>Roux Conference</title>
 </head>
 <body id="page_home">
 <div class="wrapper">
   <header> 
-    <div class="branding"> <img src="/roux_academy/roux_academy/images/ralogo_monogram.png" alt="Logo">
+    <div class="branding"> <img src="images/ralogo_monogram.png" alt="Logo">
       <p>Roux Academy<br>
         Art • Media • Design</p>
     </div>
@@ -28,13 +28,13 @@
     </div>
     <nav>
       <ol>
-        <li><a href="/roux_academy/roux_academy/index.php">HOME</a></li>
-        <li><a href="/roux_academy/roux_academy/artists.php">ARTISTS</a></li>
-        <li><a href="/roux_academy/roux_academy/schedule.php">SCHEDULE</a></li>
-        <li><a href="/roux_academy/roux_academy/venue.php">VENUE/TRAVEL</a></li>
-        <li><a href="/roux_academy/roux_academy/register.php">REGISTER</a></li>
-        <li><a href="/roux_academy/roux_academy/asistentes.php">ASISTENTES</a></li>
-        <li><a href="/roux_academy/roux_academy/login.php">LOG IN</a></li>
+        <li><a href="index.php">HOME</a></li>
+        <li><a href="artists.php">ARTISTS</a></li>
+        <li><a href="schedule.php">SCHEDULE</a></li>
+        <li><a href="venue.php">VENUE/TRAVEL</a></li>
+        <li><a href="register.php">REGISTER</a></li>
+        <li><a href="asistentes.php">ASISTENTES</a></li>
+        <li><a href="login.php">LOG IN</a></li>
       </ol>
     </nav>
   </header>
