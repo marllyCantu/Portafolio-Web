@@ -1,8 +1,8 @@
 <?php
 	$bd='rouxacademy';
 	$servidor='localhost';
-	$usuario='root';
-	$contraseña='root';
+	$usuario='admin';
+	$contraseña='50921a9d00165ad1e22c59cc77eab59b10f61e9dd23e881e';
 	
 	function conectar($servidor, $usuario, $contraseña, $bd){
 		//Conexion a la base de datos
