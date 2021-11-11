@@ -8,7 +8,7 @@
 <head>
 <meta charset="utf-8">
 <title>Roux Conference</title>
-<link rel="stylesheet" href="/roux_academy/roux_academy/css/style.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body id="page_artists">
 <div class="wrapper">
@@ -23,13 +23,13 @@
     </div>
     <nav>
       <ol>
-        <li><a href="/roux_academy/roux_academy/index.php">HOME</a></li>
-        <li><a href="/roux_academy/roux_academy/artists.php">ARTISTS</a></li>
-        <li><a href="/roux_academy/roux_academy/schedule/index.php">SCHEDULE</a></li>
-        <li><a href="/roux_academy/roux_academy/venue.php">VENUE/TRAVEL</a></li>
-        <li><a href="/roux_academy/roux_academy/register/index.php">REGISTER</a></li>
-        <li><a href="/roux_academy/roux_academy/asistentes.php">ASISTENTES</a></li>
-        <li><a href="/roux_academy/roux_academy/login.php">LOG IN</a></li>
+        <li><a href="index.php">HOME</a></li>
+        <li><a href="artists.php">ARTISTS</a></li>
+        <li><a href="schedule.php">SCHEDULE</a></li>
+        <li><a href="venue.php">VENUE/TRAVEL</a></li>
+        <li><a href="register.php">REGISTER</a></li>
+        <li><a href="asistentes.php">ASISTENTES</a></li>
+        <li><a href="login.php">LOG IN</a></li>
       </ol>
     </nav>
   </header>
