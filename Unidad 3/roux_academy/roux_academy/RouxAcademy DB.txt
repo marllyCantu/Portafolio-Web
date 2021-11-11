@@ -1,0 +1,44 @@
+CREATE DATABASE RouxAcademy;
+USE RouxAcademy;
+
+CREATE TABLE Asistentes(
+	ID_Asistente int (3) AUTO_INCREMENT PRIMARY KEY,
+	nombre varchar (50),
+	company varchar (30),
+	email varchar (30),
+	tipo varchar (30),
+	comentario varchar (400),
+	referencia varchar (20)
+);
+
+CREATE TABLE Usuarios(
+	ID_Usuario int (3) AUTO_INCREMENT PRIMARY KEY,
+	nombre varchar (40),
+	contra varchar (40)
+);
+
+CREATE TABLE Artistas(
+	ID_Artista int (3) AUTO_INCREMENT PRIMARY KEY,
+	nombre varchar (40),
+	descripcion varchar (400),
+	foto varchar (100)
+);
+
+INSERT INTO Usuarios VALUES (null, 'admin', MD5('superadmin'));
+INSERT INTO Usuarios VALUES (null, 'marlly', MD5('superadmin'));
+INSERT INTO Usuarios VALUES (null, 'profe', MD5('superadmin'));
+
+INSERT INTO Artistas VALUES(null, Barot Bellingham, Barot has just finished his final year at The Royal Academy of Painting and Sculpture, where he excelled in glass etching paintings and portraiture. Hailed as one of the most diverse artists of his generation, Barot is equally as skilled with watercolors as he is with oils.
+, images/artists/Barot_Bellingham_tn.jpg);
+INSERT INTO Artistas VALUES(null, Jonathan G. Ferrar II, Labeled as “The Artist to Watch in 2016” by the London Review, Johnathan has already sold one of the highest priced commissions paid to an art student, ever on record. The piece, entitled Gratitude Resort, a work in oil and mixed media, was sold for $750,000., images/artists/Jonathan_Ferrar_tn.jpg);
+INSERT INTO Artistas VALUES(null, Hillary Hewitt Goldwynn-Post, Hillary is a sophomore art sculpture student at New York University, and has already won all the major international prizes for new sculptors, including the Divinity Circle, the International Sculptor’s Medal, and the Academy of Paris Award. Hillary’s CAC exhibit features paintings that contain only water images including waves, deep sea, and river., images/artists/Hillary_Goldwynn_tn.jpg);
+
+INSERT INTO Artistas VALUES(null, Hassum Harrod, The Art College in New Dehli has sponsored Hassum for his entire undergraduate career at the university, seeing great promise in his contemporary paintings of landscapes - that use equal parts muted and vibrant tones. Hassum will be speaking on “The use and absence of color in modern art”., images/artists/Hassum_Harrod_tn.jpg);
+INSERT INTO Artistas VALUES(null, Jennifer_Jerome, A native of New Orleans, much of Jennifer’s work has centered around abstract images that depict flooding and rebuilding, having grown up as a teenager in the post-flood years. Despite the sadness of devastation and lives lost., images/artists/Jennifer_Jerome_tn.jpg);
+INSERT INTO Artistas VALUES(null, LaVonne L. LaRue, LaVonne’s giant-sized paintings all around Chicago tell the story of love, nature, and conservation - themes that are central to her heart. LaVonne will share her love and skill of graffiti art on Monday’s schedule, as she starts the painting of a 20-foot high wall in the Rousseau Room of Hotel Contempo in front of a standing-room only audience in Art in Unexpected Places., images/artists/LaVonne_LaRue_tn.jpg);
+
+INSERT INTO Artistas VALUES(null, Constance Olivia Smith, Constance received the Fullerton-Brighton-Norwell Award for Modern Art for her mixed-media image of a tree of life, with jewel-adorned branches depicting the arms of humanity, and precious gemstone-decorated leaves representing the spouting buds of togetherness., images/artists/Constance_Smith_tn.jpg);
+INSERT INTO Artistas VALUES(null, Riley Rudolph Rewington, A first-year student at the Roux Academy of Art, Media, and Design, Riley is already changing the face of modern art at the university. Riley’s exquisite abstract pieces have no intention of ever being understood, but instead beg the viewer to dream, create, pretend, and envision with their mind’s eye. Riley will be speaking on the “Art of Abstract” during Thursday’s schedule., images/artists/Riley_Rewington_tn.jpg);
+INSERT INTO Artistas VALUES(null, Xhou Ta, A senior at the China International Art University, Xhou has become well-known for his miniature sculptures, often the size of a rice granule, that are displayed by rear projection of microscope images on canvas. Xhou will discuss the art and science behind his incredibly detailed works of art., images/artists/Xhou_Ta_tn.jpg);
+
+INSERT INTO artistas VALUES (null, 'Marlly Cantu', 'Estudiante de la carrera de Ingeniería en Tecnologías de la Información en la Universidad Politécnica de Victoria. Fecha de entrea del producto para la unidad 3: 10 de noviembre de 2021', 'images/artists/yo.jpg');
